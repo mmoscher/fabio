@@ -1,0 +1,11 @@
+image: mmoscher/fabio:latest
+manifests:
+  - image: mmoscher/fabio:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: mmoscher/fabio:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
